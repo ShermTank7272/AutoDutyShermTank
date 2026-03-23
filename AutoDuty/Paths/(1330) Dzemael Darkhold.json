@@ -342,6 +342,18 @@
     },
     {
       "Tag": "None",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 47.791676,
+        "Y": -33.69053,
+        "Z": -139.74321
+      },
+      "Arguments": [],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "None",
       "Name": "Boss",
       "Position": {
         "X": 77.634384,
@@ -373,6 +385,10 @@
       {
         "Version": 291,
         "Change": "Enhanced path stability"
+      },
+      {
+        "Version": 298,
+        "Change": "Added safety step before b3"
       }
     ],
     "Notes": []
