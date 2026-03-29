@@ -1,0 +1,205 @@
+{
+  "Actions": [
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": -0.22866067,
+        "Y": -2.9802322E-06,
+        "Z": 178.44711
+      },
+      "Arguments": [
+        "IsReady"
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 0.019999996,
+        "Y": 0.18,
+        "Z": 165.98013
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 2.5186815,
+        "Y": -19.931221,
+        "Z": 140.62509
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 20.277357,
+        "Y": -20.0,
+        "Z": 120.30451
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 21.60231,
+        "Y": -19.999996,
+        "Z": 97.47488
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 1.2295529,
+        "Y": -20.0,
+        "Z": 95.77714
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -0.07044729,
+        "Y": -20.0,
+        "Z": 76.277435
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 6.7099476,
+        "Y": -30.0,
+        "Z": 30.417242
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 21.966839,
+        "Y": -29.999998,
+        "Z": 28.603163
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 20.432076,
+        "Y": -29.999996,
+        "Z": 11.195478
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -0.69515115,
+        "Y": -29.817951,
+        "Z": 9.553051
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -0.12323623,
+        "Y": -4.957697,
+        "Z": -168.10223
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 0.3343301,
+        "Y": -1.1920929E-06,
+        "Z": -279.2546
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "Boss",
+      "Position": {
+        "X": -1.0962937,
+        "Y": -1.1920929E-06,
+        "Z": -291.7352
+      },
+      "Arguments": [
+        "3288"
+      ],
+      "Conditions": [],
+      "Note": "Imdugud"
+    }
+  ],
+  "Meta": {
+    "CreatedAt": 298,
+    "Changelog": [],
+    "Notes": []
+  }
+}

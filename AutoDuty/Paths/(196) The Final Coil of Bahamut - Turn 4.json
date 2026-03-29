@@ -1,0 +1,23 @@
+{
+  "Actions": [
+    {
+      "Tag": "None",
+      "Name": "Boss",
+      "Position": {
+        "X": 449.4253,
+        "Y": 0.0,
+        "Z": 6.082055
+      },
+      "Arguments": [
+        "3313"
+      ],
+      "Conditions": [],
+      "Note": "Bahamut"
+    }
+  ],
+  "Meta": {
+    "CreatedAt": 298,
+    "Changelog": [],
+    "Notes": []
+  }
+}

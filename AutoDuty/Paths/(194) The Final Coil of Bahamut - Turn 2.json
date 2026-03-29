@@ -1,0 +1,457 @@
+{
+  "Actions": [
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 3.0817413,
+        "Y": -86.02058,
+        "Z": 329.90027
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Jump Right"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ConditionFlag;Jumping61;false"
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 73.65923,
+        "Y": 79.699646,
+        "Z": 279.601
+      },
+      "Arguments": [
+        "IsReady"
+      ],
+      "Conditions": [],
+      "Note": "Kill Mobs To Activate Panel"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 69.24264,
+        "Y": 74.42858,
+        "Z": 256.7734
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Jump Left"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ConditionFlag;Jumping61;false"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Jump To Complete"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": -0.33532017,
+        "Y": -60.85809,
+        "Z": 236.70218
+      },
+      "Arguments": [
+        "IsReady"
+      ],
+      "Conditions": [],
+      "Note": "Kill Mobs To Start Timer"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "Wait",
+      "Position": {
+        "X": -0.3915292,
+        "Y": -60.90765,
+        "Z": 236.83199
+      },
+      "Arguments": [
+        "15000"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Panel #1 To Activate"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "Wait",
+      "Position": {
+        "X": -0.26097775,
+        "Y": -57.45595,
+        "Z": 223.98341
+      },
+      "Arguments": [
+        "15000"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Panel #2 To Activate"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 5.5540257,
+        "Y": -51.03931,
+        "Z": 199.06541
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Go Back To Center"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ConditionFlag;Jumping61;false"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Jump To Complete"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 74.4351,
+        "Y": 2.1499379,
+        "Z": 128.32402
+      },
+      "Arguments": [
+        "IsReady"
+      ],
+      "Conditions": [],
+      "Note": "Kill Mobs To Activate Panel"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": 63.702248,
+        "Y": 2.349938,
+        "Z": 108.99034
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Jump To Left Of Semi-Circle"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ConditionFlag;Jumping61;false"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Jump To Complete"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "Wait",
+      "Position": {
+        "X": -33.990288,
+        "Y": 1.05597,
+        "Z": 56.749283
+      },
+      "Arguments": [
+        "15000"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Panel To Activate"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "CameraFacing",
+      "Position": {
+        "X": -33.99,
+        "Y": 1.06,
+        "Z": 56.75
+      },
+      "Arguments": [
+        "-18.15, 0.72, 62.79"
+      ],
+      "Conditions": [],
+      "Note": "Face Barrier"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "ChatCommand",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "/automove"
+      ],
+      "Conditions": [],
+      "Note": "Kill Yourself To Respawn"
+    },
+    {
+      "Tag": "Revival",
+      "Name": "Revival",
+      "Position": {
+        "X": -2.147861,
+        "Y": -95.83301,
+        "Z": 374.2467
+      },
+      "Arguments": [
+        "10000"
+      ],
+      "Conditions": [],
+      "Note": "Respawn"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -3.4515095,
+        "Y": -86.134735,
+        "Z": 329.38394
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Jump Left"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ConditionFlag;Jumping61;false"
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": -79.24579,
+        "Y": 55.34176,
+        "Z": 290.877
+      },
+      "Arguments": [
+        "IsReady"
+      ],
+      "Conditions": [],
+      "Note": "Kill Mobs To Activate Panel"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -71.37628,
+        "Y": 50.939503,
+        "Z": 262.61926
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Jump Right"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ConditionFlag;Jumping61;false"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Jump To Complete"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -1.013348,
+        "Y": -50.94448,
+        "Z": 198.46791
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Jump Left"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Wait For Jump To Complete"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": -79.942986,
+        "Y": -11.665341,
+        "Z": 136.29092
+      },
+      "Arguments": [
+        "IsReady"
+      ],
+      "Conditions": [],
+      "Note": "Kill Mobs To Activate Panel"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -67.853455,
+        "Y": -8.850731,
+        "Z": 114.291504
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Jump To Right Of Semi-Circle"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 47.440807,
+        "Y": 0.57899773,
+        "Z": 45.12453
+      },
+      "Arguments": [
+        "IsReady"
+      ],
+      "Conditions": [],
+      "Note": "Kill Mobs"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "Wait",
+      "Position": {
+        "X": 33.576286,
+        "Y": 1.1819022,
+        "Z": 56.955185
+      },
+      "Arguments": [
+        "15000"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Panel To Activate"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -0.38482118,
+        "Y": 1.0445162,
+        "Z": 66.96775
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": "Jump To Center"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "WaitFor",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ConditionFlag;Jumping61;false"
+      ],
+      "Conditions": [],
+      "Note": "Wait For Jump To Complete"
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "MoveTo",
+      "Position": {
+        "X": -1.1256757,
+        "Y": -4.9630003,
+        "Z": 16.144495
+      },
+      "Arguments": [
+        ""
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
+      "Tag": "Unsynced",
+      "Name": "Boss",
+      "Position": {
+        "X": -1.13,
+        "Y": -4.96,
+        "Z": 16.14
+      },
+      "Arguments": [
+        "3294"
+      ],
+      "Conditions": [],
+      "Note": "Kaliya"
+    }
+  ],
+  "Meta": {
+    "CreatedAt": 298,
+    "Changelog": [],
+    "Notes": []
+  }
+}
