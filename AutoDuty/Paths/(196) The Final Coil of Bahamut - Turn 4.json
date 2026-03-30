@@ -4,19 +4,19 @@
       "Tag": "None",
       "Name": "Boss",
       "Position": {
-        "X": 449.4253,
+        "X": 449.946,
         "Y": 0.0,
-        "Z": 6.082055
+        "Z": -5.049
       },
       "Arguments": [
-        "3313"
+        ""
       ],
       "Conditions": [],
-      "Note": "Bahamut"
+      "Note": "Bahamut Prime"
     }
   ],
   "Meta": {
-    "CreatedAt": 298,
+    "CreatedAt": 285,
     "Changelog": [],
     "Notes": []
   }
