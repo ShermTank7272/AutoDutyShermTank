@@ -365,6 +365,20 @@
     },
     {
       "Tag": "Synced, W2W",
+      "Name": "BossMod",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ON"
+      ],
+      "Conditions": [],
+      "Note": " Allows BossMod AI to dodge AoEs while waiting."
+    },
+    {
+      "Tag": "Synced, W2W",
       "Name": "Wait",
       "Position": {
         "X": -47.64706,
@@ -400,7 +414,7 @@
         "Z": 151.62589
       },
       "Arguments": [
-        "1000"
+        "2500"
       ],
       "Conditions": [
         {
@@ -412,33 +426,14 @@
     },
     {
       "Tag": "Synced, W2W",
-      "Name": "Wait",
+      "Name": "MoveTo",
       "Position": {
-        "X": -58.254562,
-        "Y": 73.55941,
-        "Z": 151.98991
+        "X": -54.23309,
+        "Y": 73.26647,
+        "Z": 175.09642
       },
       "Arguments": [
-        "1000"
-      ],
-      "Conditions": [
-        {
-          "$type": "AutoDuty.Data.Classes+PathActionConditionJob, AutoDuty",
-          "job": "Tanks"
-        }
-      ],
-      "Note": "Attempts to dodge AoEs while still grabbing aggro."
-    },
-    {
-      "Tag": "Synced, W2W",
-      "Name": "Wait",
-      "Position": {
-        "X": -54.66288,
-        "Y": 73.33443,
-        "Z": 171.9976
-      },
-      "Arguments": [
-        "1500"
+        ""
       ],
       "Conditions": [
         {
@@ -505,7 +500,21 @@
         "FALSE"
       ],
       "Conditions": [],
-      "Note": ""
+      "Note": "May not trigger before the next set of enemies runs at you depending on where the previous battle finished."
+    },
+    {
+      "Tag": "Synced, W2W",
+      "Name": "BossMod",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [
+        "ON"
+      ],
+      "Conditions": [],
+      "Note": " Allows BossMod AI to dodge AoEs while waiting."
     },
     {
       "Tag": "Synced, W2W",
@@ -544,7 +553,7 @@
         "Z": 86.47968
       },
       "Arguments": [
-        "2000"
+        "2500"
       ],
       "Conditions": [
         {
@@ -556,14 +565,14 @@
     },
     {
       "Tag": "Synced, W2W",
-      "Name": "Wait",
+      "Name": "MoveTo",
       "Position": {
-        "X": -21.920557,
-        "Y": 74.22513,
-        "Z": 102.2514
+        "X": -23.196875,
+        "Y": 74.26662,
+        "Z": 104.31726
       },
       "Arguments": [
-        "2000"
+        ""
       ],
       "Conditions": [
         {

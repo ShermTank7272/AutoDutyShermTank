@@ -292,15 +292,41 @@
       "Note": ""
     },
     {
+      "Tag": "Comment",
+      "Name": "<-- Comment -->",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [],
+      "Conditions": [],
+      "Note": "<-- Gauntlet Loop: Start -->"
+    },
+    {
+      "Tag": "None",
+      "Name": "KillInRange",
+      "Position": {
+        "X": -58.033283,
+        "Y": 28.4,
+        "Z": -9.250649
+      },
+      "Arguments": [
+        "33"
+      ],
+      "Conditions": [],
+      "Note": ""
+    },
+    {
       "Tag": "None",
       "Name": "Wait",
       "Position": {
-        "X": -58.02484,
-        "Y": 28.400002,
-        "Z": -9.161681
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
       },
       "Arguments": [
-        "250"
+        "1000"
       ],
       "Conditions": [],
       "Note": ""
@@ -314,17 +340,17 @@
         "Z": 0.0
       },
       "Arguments": [
-        "+2"
+        "-2"
       ],
       "Conditions": [
         {
           "$type": "AutoDuty.Data.Classes+PathActionConditionObjectData, AutoDuty",
-          "baseId": 3356,
+          "baseId": 3364,
           "property": "IsTargetable",
           "value": 1
         }
       ],
-      "Note": "Skips ahead if the Snowclops is targetable."
+      "Note": "Goes back if an Ice Bomb is targetable (enemies in the first wave)."
     },
     {
       "Tag": "None",
@@ -335,10 +361,43 @@
         "Z": 0.0
       },
       "Arguments": [
-        "-2"
+        "-3"
+      ],
+      "Conditions": [
+        {
+          "$type": "AutoDuty.Data.Classes+PathActionConditionObjectData, AutoDuty",
+          "baseId": 3376,
+          "property": "IsTargetable",
+          "value": 1
+        }
+      ],
+      "Note": "Goes back if the Hybrid Gator is targetable (an enemy in the second wave)."
+    },
+    {
+      "Tag": "None",
+      "Name": "KillInRange",
+      "Position": {
+        "X": -58.033283,
+        "Y": 28.4,
+        "Z": -9.250649
+      },
+      "Arguments": [
+        "30"
       ],
       "Conditions": [],
-      "Note": "Goes back and waits some more."
+      "Note": ""
+    },
+    {
+      "Tag": "Comment",
+      "Name": "<-- Comment -->",
+      "Position": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 0.0
+      },
+      "Arguments": [],
+      "Conditions": [],
+      "Note": "<-- Gauntlet Loop: End -->"
     },
     {
       "Tag": "None",
@@ -430,7 +489,7 @@
       },
       {
         "Version": 299,
-        "Change": "Added Trash/Boss Comments & Boss Names. Added Unsynced Steps. Added KillInRange steps. Replaced the Boss step in the Gauntlet after the second boss with a Condition."
+        "Change": "Added Trash/Boss Comments & Boss Names. Added Unsynced Steps. Added KillInRange steps. Replaced the Boss step in the Gauntlet after the second boss with a Condition loop."
       }
     ],
     "Notes": []
