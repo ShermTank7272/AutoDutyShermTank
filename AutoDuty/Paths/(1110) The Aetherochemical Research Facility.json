@@ -247,12 +247,12 @@
       "Tag": "None",
       "Name": "KillInRange",
       "Position": {
-        "X": 26.743103,
-        "Y": 210.23207,
-        "Z": 190.17809
+        "X": 28.118292,
+        "Y": 211.63792,
+        "Z": 224.27837
       },
       "Arguments": [
-        "35"
+        "15"
       ],
       "Conditions": [],
       "Note": ""
@@ -275,12 +275,12 @@
       "Tag": "None",
       "Name": "KillInRange",
       "Position": {
-        "X": 81.55454,
-        "Y": 220.03775,
-        "Z": 272.58664
+        "X": 115.787544,
+        "Y": 221.89915,
+        "Z": 272.07303
       },
       "Arguments": [
-        "35"
+        "15"
       ],
       "Conditions": [],
       "Note": ""
@@ -731,11 +731,11 @@
         "Version": 189,
         "Change": "Adjusted tags to string values"
       },
-	  {
+      {
         "Version": 299,
         "Change": "Added Trash/Boss Comments & Boss names. Added W2W & Unsynced steps. Added WaitFor:IsReady during transitions. Added Conditions for if you die during the Elevator somehow. Replaced ForceAttack steps with KillInRange steps. Removed AutoMoveFor steps."
       }
     ],
-    "notes": []
+    "Notes": []
   }
 }
