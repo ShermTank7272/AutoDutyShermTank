@@ -442,9 +442,9 @@
       "Tag": "None",
       "Name": "KillInRange",
       "Position": {
-        "X": -360.19034,
-        "Y": -299.98392,
-        "Z": -249.84454
+        "X": -362.95,
+        "Y": -299.98,
+        "Z": -255.14
       },
       "Arguments": [
         "15"
@@ -692,7 +692,7 @@
       },
       "Arguments": [
         "GetDistanceToPlayer;225.69,-89.45,66.97;>;10",
-        "ModifyIndex;50"
+        "ModifyIndex;51"
       ],
       "Conditions": [],
       "Note": "Carried over from original path. Use unclear."
