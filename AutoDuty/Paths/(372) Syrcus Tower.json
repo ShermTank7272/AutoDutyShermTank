@@ -30,9 +30,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": 34.29113,
-        "Y": -881.17065,
-        "Z": 282.2883
+        "X": 34.18506,
+        "Y": -881.2095,
+        "Z": 282.3034
       },
       "Arguments": [],
       "Conditions": [],
@@ -75,9 +75,7 @@
         "Y": -700.0,
         "Z": 69.97226
       },
-      "Arguments": [
-        ""
-      ],
+      "Arguments": [],
       "Conditions": [],
       "Note": "Yellow Dragon",
       "Flags": "None"
@@ -125,9 +123,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -40.79849,
-        "Y": -680.78876,
-        "Z": -34.379932
+        "X": -41.514385,
+        "Y": -680.52673,
+        "Z": -34.232037
       },
       "Arguments": [],
       "Conditions": [],
@@ -171,7 +169,7 @@
         "Z": -166.05418
       },
       "Arguments": [
-        ""
+        "<0, -590, -230>"
       ],
       "Conditions": [],
       "Note": "Scylla",
@@ -181,9 +179,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -0.11719605,
+        "X": 0.0,
         "Y": -590.0,
-        "Z": -229.9524
+        "Z": -230.0
       },
       "Arguments": [],
       "Conditions": [],
@@ -207,9 +205,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": 0.012954432,
-        "Y": -580.1777,
-        "Z": -256.12387
+        "X": -0.028454967,
+        "Y": -579.75214,
+        "Z": -257.1877
       },
       "Arguments": [],
       "Conditions": [],
@@ -248,13 +246,11 @@
       "Tag": "None",
       "Name": "Boss",
       "Position": {
-        "X": 16.026402,
+        "X": 15.0,
         "Y": -400.0,
-        "Z": -198.55006
+        "Z": -200.0
       },
-      "Arguments": [
-        ""
-      ],
+      "Arguments": [],
       "Conditions": [],
       "Note": "Green Dragon",
       "Flags": "None"
@@ -289,9 +285,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -66.559746,
-        "Y": -394.33197,
-        "Z": -220.51457
+        "X": -66.3398,
+        "Y": -394.08524,
+        "Z": -221.63805
       },
       "Arguments": [],
       "Conditions": [],
@@ -347,10 +343,10 @@
       "Position": {
         "X": 0.0,
         "Y": 0.0,
-        "Z": -190.0
+        "Z": -185.0
       },
       "Arguments": [
-        ""
+        "<0, 0, -227>"
       ],
       "Conditions": [],
       "Note": "Glasya Labolas",
@@ -360,9 +356,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -0.14768505,
+        "X": 0.0,
         "Y": 0.0,
-        "Z": -226.84016
+        "Z": -227.00012
       },
       "Arguments": [],
       "Conditions": [],
@@ -386,9 +382,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -21.260954,
-        "Y": 5.819545,
-        "Z": -266.88397
+        "X": -21.603739,
+        "Y": 5.9011955,
+        "Z": -266.5752
       },
       "Arguments": [],
       "Conditions": [],
@@ -431,9 +427,7 @@
         "Y": 200.0,
         "Z": -220.0
       },
-      "Arguments": [
-        ""
-      ],
+      "Arguments": [],
       "Conditions": [],
       "Note": "Red Dragon",
       "Flags": "None"
@@ -509,12 +503,12 @@
       "Tag": "None",
       "Name": "Boss",
       "Position": {
-        "X": 15.0,
-        "Y": 599.99994,
-        "Z": -180.0
+        "X": 10.52097,
+        "Y": 600.0,
+        "Z": -184.24487
       },
       "Arguments": [
-        ""
+        "<-28,600,-200>"
       ],
       "Conditions": [],
       "Note": "Amon",
@@ -524,9 +518,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -25.837557,
-        "Y": 600.0,
-        "Z": -200.16888
+        "X": -28.0,
+        "Y": 599.99994,
+        "Z": -200.0
       },
       "Arguments": [],
       "Conditions": [],
@@ -537,9 +531,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -59.190205,
+        "X": -58.0,
         "Y": 602.69995,
-        "Z": -200.31778
+        "Z": -200.0
       },
       "Arguments": [],
       "Conditions": [],
@@ -550,9 +544,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -63.902836,
+        "X": -65.0,
         "Y": 602.69995,
-        "Z": -200.39088
+        "Z": -200.0
       },
       "Arguments": [],
       "Conditions": [],
@@ -578,9 +572,9 @@
       "Tag": "None",
       "Name": "MoveTo",
       "Position": {
-        "X": -366.4796,
-        "Y": 499.49988,
-        "Z": -199.91258
+        "X": -360.0,
+        "Y": 498.9999,
+        "Z": -200.0
       },
       "Arguments": [],
       "Conditions": [],
@@ -599,19 +593,19 @@
         "IsReady"
       ],
       "Conditions": [],
-      "Note": "Cutscene wait",
+      "Note": "Cutscene Buffer",
       "Flags": "None"
     },
     {
       "Tag": "None",
       "Name": "Boss",
       "Position": {
-        "X": -375.0,
+        "X": -380.0,
         "Y": 500.0,
         "Z": -200.0
       },
       "Arguments": [
-        ""
+        "<-405, 500, -200>"
       ],
       "Conditions": [],
       "Note": "Xande",
